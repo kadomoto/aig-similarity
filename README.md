@@ -16,8 +16,8 @@ Place repeated synthesis runs under `data/benchmarks/` as follows:
 data/benchmarks/<benchmark>/<script><N>/yosys.aig
 ```
 
-- `<benchmark>`: benchmark name (e.g. `adder`, `multiplier`)
-- `<script>`: script name prefix (e.g. `abc_resyn2`, `yosys_opt`)
+- `<benchmark>`: benchmark name (e.g. `aes`, `ibex`)
+- `<script>`: script name prefix (e.g. `abc_hogehoge`, `abc_puyopuyo`)
 - `<N>`: run index from `1` to `100` by default
 - `yosys.aig`: AIG file produced for that run
 
