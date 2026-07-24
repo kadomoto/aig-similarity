@@ -30,6 +30,10 @@ data/benchmarks/adder/abc_resyn22/yosys.aig
 data/benchmarks/adder/abc_resyn2100/yosys.aig
 ```
 
+## QoR mapping workflow
+
+For applying similarity analysis to timing / cell-count correlation, best-AIG selection, and design-space exploration over ~100 variants, see [docs/qor-mapping-guide.md](docs/qor-mapping-guide.md).
+
 ## Analyze a benchmark + script (`analyze_runs.py`)
 
 Specify a **benchmark name** and a **script name**. The tool resolves run directories `<script>1` … `<script>100`, loads each `yosys.aig`, and either:
